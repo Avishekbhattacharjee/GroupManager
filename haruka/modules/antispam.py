@@ -106,7 +106,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
 
     if not user_id:
 
-        message.reply_text("You don't seem to be referring to a person.")
+        message.reply_text("You don't seem to be referring to a person. Do Gban Only The Group Where the User Stayed")
 
         return
 
@@ -160,7 +160,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
 
         if not reason:
 
-            message.reply_text("This person is already gbanned; I'd change the reason, but you haven't given me one...")
+            message.reply_text("This person is already gbanned; I'd change the reason, but you haven't given me one...For Support @aniesupport")
 
             return
 
@@ -180,7 +180,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
 
         else:
 
-            message.reply_text("This person is already gbanned, but had no reason set; I've gone and updated it!")
+            message.reply_text("This person is already gbanned, but had no reason set; I've gone and updated it! For Support @aniesupport")
 
 
 
